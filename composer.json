@@ -1,0 +1,11 @@
+{
+    "name": "stepanorda/yii2-contenttypes",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Stepan Orda",
+            "email": "stepanorda87@gmail.com"
+        }
+    ],
+    "require": {}
+}
