@@ -8,7 +8,10 @@
 namespace stepanorda\contenttypes\behaviors;
 
 
-class ModelBehavior extends \yii\base\Behavior
+class ContentTypeBehavior extends \yii\base\Behavior
 {
+    public static function getModel_id()
+    {
 
+    }
 }

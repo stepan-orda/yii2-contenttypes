@@ -7,9 +7,9 @@ class m150105_054034_init extends Migration
 {
     public function up()
     {
-        $this->createTable('models', [
+        $this->createTable('content_types', [
             'model_id' => 'pk',
-            'model' => Schema::TYPE_STRING . ' NOT NULL',
+            'model_name' => Schema::TYPE_STRING . ' NOT NULL',
         ]);
     }
 

@@ -1,6 +1,7 @@
 yii2-contenttypes
 =================
-Adaptation of contenttypes from Django for Yii2.
+This extension keeps track of your models giving them unique ids so you can easily use them in junction tables.
+In the future I plan to improve this extension so it will be something like ContentTypes from Django framework.
 
 # Installation
 ### Downloading yii2-contenttypes using composer
@@ -21,8 +22,13 @@ Then run the command:
 $ php composer.phar update
 ```
 
-And apply the migration:
+Apply the migration:
 
 ```sh
 $ php yii migrate/up --migrationPath=@vendor/stepanorda/yii2-contenttypes/migrations
 ```
+
+# Usage
+
+# License
+Apache License 2.0 http://www.apache.org/licenses/
