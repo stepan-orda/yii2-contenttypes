@@ -1,12 +1,17 @@
 {
-    "name": "stepanorda/yii2-contenttypes",
-    "license": "Apache 2.0",
-    "type": "yii2-extension",
-    "authors": [
-        {
-            "name": "Stepan Orda",
-            "email": "stepanorda87@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "stepanorda/yii2-contenttypes",
+  "license": "Apache 2.0",
+  "type": "yii2-extension",
+  "autoload": {
+    "psr-4": {
+      "stepanorda\\yii2-contenttypes\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Stepan Orda",
+      "email": "stepanorda87@gmail.com"
+    }
+  ],
+  "require": {}
 }
