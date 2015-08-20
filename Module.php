@@ -17,5 +17,7 @@ class Module extends \yii\base\Module
      * @var string Table to store models data
      */
     public $table='models';
+    public $model_field='model_id';
+    public $connection_field='connection_id';
 
 }
